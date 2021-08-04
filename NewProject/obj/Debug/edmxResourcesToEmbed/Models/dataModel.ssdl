@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="project_news_PRN292Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'project_news_PRN292.dbo.Account' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="userID" />
+      <PropertyRef Name="username" />
+      <PropertyRef Name="password" />
+      <PropertyRef Name="name" />
+      <PropertyRef Name="gmail" />
+      <PropertyRef Name="DOB" />
+      <PropertyRef Name="securityQuestion" />
+      <PropertyRef Name="securityAnswer" />
+      <PropertyRef Name="isAdmin" />
+    </Key>
+    <Property Name="userID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="username" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="password" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="avatar" Type="nvarchar(max)" />
+    <Property Name="gmail" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="DOB" Type="date" Nullable="false" />
+    <Property Name="securityQuestion" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="securityAnswer" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="isAdmin" Type="bit" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'project_news_PRN292.dbo.Comment' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Comment">
+    <Key>
+      <PropertyRef Name="cmtID" />
+      <PropertyRef Name="userID" />
+      <PropertyRef Name="newID" />
+      <PropertyRef Name="contentComment" />
+      <PropertyRef Name="dateComment" />
+    </Key>
+    <Property Name="cmtID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="newID" Type="int" Nullable="false" />
+    <Property Name="contentComment" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="dateComment" Type="date" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'project_news_PRN292.dbo.News' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="News">
+    <Key>
+      <PropertyRef Name="newID" />
+      <PropertyRef Name="userID" />
+      <PropertyRef Name="title" />
+      <PropertyRef Name="category" />
+      <PropertyRef Name="imageNew" />
+      <PropertyRef Name="description" />
+      <PropertyRef Name="datePost" />
+      <PropertyRef Name="viewCount" />
+    </Key>
+    <Property Name="newID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="title" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="category" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="imageNew" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="description" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="datePost" Type="date" Nullable="false" />
+    <Property Name="viewCount" Type="int" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'project_news_PRN292.dbo.NewsLater' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="NewsLater">
+    <Key>
+      <PropertyRef Name="newID" />
+      <PropertyRef Name="userID" />
+    </Key>
+    <Property Name="newID" Type="int" Nullable="false" />
+    <Property Name="userID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="project_news_PRN292ModelStoreContainer">
+    <EntitySet Name="Account" EntityType="Self.Account" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Account].[userID] AS [userID], 
+    [Account].[username] AS [username], 
+    [Account].[password] AS [password], 
+    [Account].[name] AS [name], 
+    [Account].[avatar] AS [avatar], 
+    [Account].[gmail] AS [gmail], 
+    [Account].[DOB] AS [DOB], 
+    [Account].[securityQuestion] AS [securityQuestion], 
+    [Account].[securityAnswer] AS [securityAnswer], 
+    [Account].[isAdmin] AS [isAdmin]
+    FROM [dbo].[Account] AS [Account]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="Comment" EntityType="Self.Comment" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Comment].[cmtID] AS [cmtID], 
+    [Comment].[userID] AS [userID], 
+    [Comment].[newID] AS [newID], 
+    [Comment].[contentComment] AS [contentComment], 
+    [Comment].[dateComment] AS [dateComment]
+    FROM [dbo].[Comment] AS [Comment]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="News" EntityType="Self.News" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [News].[newID] AS [newID], 
+    [News].[userID] AS [userID], 
+    [News].[title] AS [title], 
+    [News].[category] AS [category], 
+    [News].[imageNew] AS [imageNew], 
+    [News].[description] AS [description], 
+    [News].[datePost] AS [datePost], 
+    [News].[viewCount] AS [viewCount]
+    FROM [dbo].[News] AS [News]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="NewsLater" EntityType="Self.NewsLater" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [NewsLater].[newID] AS [newID], 
+    [NewsLater].[userID] AS [userID]
+    FROM [dbo].[NewsLater] AS [NewsLater]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

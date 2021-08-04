@@ -1,0 +1,98 @@
+﻿@{
+    ViewBag.Title = "CreateNews";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+<link href="~/Content/style.css" rel="stylesheet" />
+<script src="~/Content/js/bootstrap.min.js"></script>
+<script src="~/Content/js/custom.js"></script>
+<script src="~/Content/js/jquery.min.js"></script>
+<script src="~/Content/js/tether.min.js"></script>
+<link href="~/Content/css/version/tech.css" rel="stylesheet" />
+<link href="~/Content/css/bootstrap.css" rel="stylesheet" />
+<link href="~/Content/css/colors.css" rel="stylesheet" />
+<link href="~/Content/css/font-awesome.min.css" rel="stylesheet" />
+<link href="~/Content/css/responsive.css" rel="stylesheet" />
+
+<link href="~/Content/fontEndCreate/bootstrap.min.css" rel="stylesheet" />
+<script src="~/Content/fontEndCreate/bootstrap.min.js"></script>
+<link href="~/Content/fontEndCreate/fontawesome-all.min.css" rel="stylesheet" />
+<script src="~/Content/fontEndCreate/jquery-3.2.1.slim.min.js"></script>
+<link href="~/Content/fontEndCreate/tooplate-style.css" rel="stylesheet" />
+
+<link href="~/Content/fontEndCreate/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/fontEndCreate/fontawesome-all.min.css" rel="stylesheet" />
+<link href="~/Content/fontEndCreate/tooplate-style.css" rel="stylesheet" />
+<body>
+
+    <div class="tm-main">
+        <div class="container text-center tm-welcome-container">
+            <div class="tm-welcome">
+                <i class="fas tm-fa-big fa-music tm-fa-mb-big"></i>
+                <h1 class="text-uppercase mb-3 tm-site-name">Create News</h1>
+                <h4 style="font-style:italic; font-weight: lighter;">All new information entered must be valid </h4>
+                <p class="tm-site-description"></p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row tm-mt-big tm-about-row tm-mb-medium">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-xs-12 tm-contact-col">
+            <div class="tm-bg-gray tm-contact-middle" style="margin-right: auto; margin-left: auto;">
+                @using (Html.BeginForm())
+                {
+                    <div class="form-group mb-4">
+                        Title:
+                        <input type="text" id="title" name="title" class="form-control" placeholder="Title" required=""
+                               pattern=".*\S+.*"
+                               title="The title should not be blank" maxlength="50">
+                    </div>
+
+                    <div class="form-group mb-4">
+                        Category:
+
+                        <div class="form-group mb-4">
+                            <select name="categolySelect" class="tm-select" id="categolySelect" required="">
+                                <option value="Science"> Science</option>
+                                <option value="Technology"> Technology</option>
+                                <option value="Social media"> Social media</option>
+                                <option value="Car news"> Car news</option>
+
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group mb-4">
+                        Image:
+                        <input type="text" id="image" name="image" class="form-control" placeholder="Input link image" required=""
+                               pattern=".*\S+.*"
+                               title="The link image should not be blank">
+                    </div>
+                    <form action="/upload.php" method="post" enctype="multipart/form-data">
+                        Chọn file để upload:
+                        <input type="file" name="fileupload" id="fileupload">
+                        <input type="submit" value="Đăng ảnh" name="submit">
+                    </form>
+
+                    <div class="form-group mb-4" style="column-width:200px">
+                        Description:
+                        <textarea rows="8" id="description" name="description" class="form-control" placeholder="Your description" required=""
+                                  pattern=".*\S+.*"
+                                  title="The description should not be blank"></textarea>
+                        @*@Html.TextAreaFor(model => model.description, 10, 80, new { htmlAttributes = new { @class = "form-control" } })*@
+                        @*<textarea rows="8" id="contact_message" name="contact_message" class="form-control" placeholder="Your Message" required></textarea>*@
+                    </div>
+                    <div class="form-group mb-0">
+                        <button type="submit" class="btn btn-secondary">Submit</button>
+                    </div>
+
+                }
+            </div>
+
+        </div>
+    </div>
+    </div> <!-- .container -->
+    </div> <!-- .main -->
+    <!-- load JS -->
+</body>

@@ -1,0 +1,72 @@
+﻿@using NewProject.Controllers
+@using NewProject.Models
+@{
+    ViewBag.Title = "NewDetail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    HomeController controller = new HomeController();
+   List<News> newByCate =  controller.getNewByCategory(ViewBag.catee);
+}
+
+<div class="page-title lb single-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                <h2>
+                    <i class="fa fa-star bg-orange"></i> List category:
+                    <small class="hidden-xs-down hidden-sm-down"> @ViewBag.catee </small>
+                </h2>
+
+
+
+            </div><!-- end col -->
+            <div class="col-lg-4 col-md-4 col-sm-12 hidden-xs-down hidden-sm-down">
+            </div><!-- end col -->
+        </div><!-- end row -->
+    </div><!-- end container -->
+</div><!-- end page-title -->
+
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+                <div class="page-wrapper">
+
+
+                    <hr class="invis">
+
+
+                   
+
+                           @foreach (var item in newByCate)
+                           {
+                                <div class="blog-list clearfix">
+                                    <class ="blog-box row">
+                                        <div clasdiv s="col-md-4">
+                                            <div class="post-media" style="width: 50%;">
+                                                <a href="tech-single.html" title="">
+                                                    <img src="~/Content/images/img_News/@item.imageNew" alt="" class="img-fluid">
+                                                    <div class="hovereffect"></div>
+                                                </a>
+                                            </div><!-- end media -->
+                                        </div><!-- end col -->
+
+                                </div><!-- end blog-box -->
+                                <div class="blog-meta big-meta col-md-8">
+                                    <h4>
+                                        @Html.ActionLink(@item.title, "NewDetail", "Home", new { id = item.newID }, null)
+                                    </h4>
+                                    <p>@item.description</p>
+
+                                    <small class="firstsmall"><a class="bg-orange" href="tech-category-01.html" title="">@item.category</a></small>
+                                    <small><a href="tech-single.html" title="">@item.datePost</a></small>
+                                    <small><a href="tech-author.html" title="">by ThaoDP</a></small>
+                                    <small><a href="tech-single.html" title=""><i class="fa fa-eye"></i> @item.viewCount</a></small>
+                                </div><!-- end meta -->
+
+                           }
+                </div><!-- end blog-box -->
+            </div><!-- end blog-list -->
+        </div><!-- end page-wrapper -->
+
+        <hr class="invis">

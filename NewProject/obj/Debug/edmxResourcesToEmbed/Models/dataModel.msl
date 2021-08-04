@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="project_news_PRN292ModelStoreContainer" CdmEntityContainer="dataModel">
+    <EntitySetMapping Name="Accounts">
+      <EntityTypeMapping TypeName="project_news_PRN292Model.Account">
+        <MappingFragment StoreEntitySet="Account">
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="avatar" ColumnName="avatar" />
+          <ScalarProperty Name="gmail" ColumnName="gmail" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="securityQuestion" ColumnName="securityQuestion" />
+          <ScalarProperty Name="securityAnswer" ColumnName="securityAnswer" />
+          <ScalarProperty Name="isAdmin" ColumnName="isAdmin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Comments">
+      <EntityTypeMapping TypeName="project_news_PRN292Model.Comment">
+        <MappingFragment StoreEntitySet="Comment">
+          <ScalarProperty Name="cmtID" ColumnName="cmtID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="newID" ColumnName="newID" />
+          <ScalarProperty Name="contentComment" ColumnName="contentComment" />
+          <ScalarProperty Name="dateComment" ColumnName="dateComment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="News">
+      <EntityTypeMapping TypeName="project_news_PRN292Model.News">
+        <MappingFragment StoreEntitySet="News">
+          <ScalarProperty Name="newID" ColumnName="newID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="category" ColumnName="category" />
+          <ScalarProperty Name="imageNew" ColumnName="imageNew" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="datePost" ColumnName="datePost" />
+          <ScalarProperty Name="viewCount" ColumnName="viewCount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NewsLaters">
+      <EntityTypeMapping TypeName="project_news_PRN292Model.NewsLater">
+        <MappingFragment StoreEntitySet="NewsLater">
+          <ScalarProperty Name="newID" ColumnName="newID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

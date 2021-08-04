@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="project_news_PRN292Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="userID" />
+      <PropertyRef Name="username" />
+      <PropertyRef Name="password" />
+      <PropertyRef Name="name" />
+      <PropertyRef Name="gmail" />
+      <PropertyRef Name="DOB" />
+      <PropertyRef Name="securityQuestion" />
+      <PropertyRef Name="securityAnswer" />
+      <PropertyRef Name="isAdmin" />
+    </Key>
+    <Property Name="userID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="avatar" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="gmail" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DOB" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="securityQuestion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="securityAnswer" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="isAdmin" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Comment">
+    <Key>
+      <PropertyRef Name="cmtID" />
+      <PropertyRef Name="userID" />
+      <PropertyRef Name="newID" />
+      <PropertyRef Name="contentComment" />
+      <PropertyRef Name="dateComment" />
+    </Key>
+    <Property Name="cmtID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="userID" Type="Int32" Nullable="false" />
+    <Property Name="newID" Type="Int32" Nullable="false" />
+    <Property Name="contentComment" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="dateComment" Type="DateTime" Nullable="false" Precision="0" />
+  </EntityType>
+  <EntityType Name="News">
+    <Key>
+      <PropertyRef Name="newID" />
+      <PropertyRef Name="userID" />
+      <PropertyRef Name="title" />
+      <PropertyRef Name="category" />
+      <PropertyRef Name="imageNew" />
+      <PropertyRef Name="description" />
+      <PropertyRef Name="datePost" />
+      <PropertyRef Name="viewCount" />
+    </Key>
+    <Property Name="newID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="userID" Type="Int32" Nullable="false" />
+    <Property Name="title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="category" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="imageNew" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="datePost" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="viewCount" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="NewsLater">
+    <Key>
+      <PropertyRef Name="newID" />
+      <PropertyRef Name="userID" />
+    </Key>
+    <Property Name="newID" Type="Int32" Nullable="false" />
+    <Property Name="userID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="project_news_PRN292Entities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Accounts" EntityType="Self.Account" />
+    <EntitySet Name="Comments" EntityType="Self.Comment" />
+    <EntitySet Name="News" EntityType="Self.News" />
+    <EntitySet Name="NewsLaters" EntityType="Self.NewsLater" />
+  </EntityContainer>
+</Schema>

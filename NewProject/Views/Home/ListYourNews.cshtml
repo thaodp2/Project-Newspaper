@@ -1,0 +1,97 @@
+﻿@using NewProject.Controllers
+@using NewProject.Models
+@{
+    ViewBag.Title = "ListYourNews";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    HomeController controller = new HomeController();
+    List<News> listNewsByAuthor = controller.getNewByAuthor(1);
+}
+
+<div class="page-title lb single-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                <h2><i class="fa fa-play bg-orange"></i> List Your News! <small class="hidden-xs-down hidden-sm-down"> </small></h2>
+            </div><!-- end col -->
+          </div><!-- end row -->
+    </div><!-- end container -->
+</div><!-- end page-title -->
+
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+                <div class="page-wrapper">
+                    <div class="blog-custom-build">
+                        @foreach (var item in listNewsByAuthor)
+                        {
+                            <div class="blog-box" >
+                                <div class="post-media">
+                                    <a href="tech-single.html" title="">
+                                        <img src="~/Content/images/img_News/@item.imageNew" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                                <!-- end media -->
+                                <div class="blog-meta big-meta text-center" style="background-color: #b9ceee;">
+
+                                    <div class="post-sharing">
+                                        <ul class="list-inline">
+                                            <h5>@Html.ActionLink("Edit News", "Edit", "Home", new { id = item.newID, @class = "fb-button btn btn-primary", @style = "background: #DA5333 !important;" }, null)</h5>  
+
+                                            @*<li><a href="#" class="fb-button btn btn-primary"><span class="down-mobile">Edit New!</span></a></li>*@
+
+                                        <h5>@Html.ActionLink("Delete News", "DeteleNews", "Home", new { id = item.newID, @class = "gp-button btn btn-primary", @style = "background: #DA5333 !important;" }, null)</h5> 
+                                            @*<li><a href="#" class="gp-button btn btn-primary"><span class="down-mobile">Delete New!</span></a></li>*@
+                                        </ul>
+                                    </div><!-- end post-sharing -->
+                                    <h4> @Html.ActionLink(@item.title, "NewDetail", "Home", new { id = item.newID }, null)</h4>
+
+                                    @*<h4><a href="tech-single.html" title="">@item.title</a></h4>*@
+                                    <p>@item.description.Substring(1,10) ...</p>
+                                    <small><a href="tech-category.html" title="">@item.category</a></small>
+                                    <small><a href="tech-single.html" title="">@item.datePost</a></small>
+                                    <small><a href="tech-author.html" title="">by Thao</a></small>
+                                    <small><a href="#" title=""><i class="fa fa-eye"></i> @item.viewCount</a></small>
+                                </div><!-- end meta -->
+                            </div><!-- end blog-box -->
+
+                            <hr class="invis">
+                        }
+
+
+
+
+
+
+
+
+                  
+
+            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                <div class="sidebar">
+                    <div class="widget">
+                        <div class="banner-spot clearfix">
+                            <div class="banner-img">
+                                <img src="upload/banner_07.jpg" alt="" class="img-fluid">
+                            </div><!-- end banner-img -->
+                        </div><!-- end banner -->
+                    </div><!-- end widget -->
+
+                 
+
+                
+
+               
+                    <!--<div class="widget">
+                        <div class="banner-spot clearfix">
+                            <div class="banner-img">
+                                <img src="upload/banner_03.jpg" alt="" class="img-fluid">
+                            </div>--><!-- end banner-img -->
+                        <!--</div>--><!-- end banner -->
+                    <!--</div>--><!-- end widget -->
+                </div><!-- end sidebar -->
+            </div><!-- end col -->
+        </div>
+    </div><!-- end container -->
+</section>
+

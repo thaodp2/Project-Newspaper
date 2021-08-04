@@ -1,0 +1,236 @@
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\NewProject.dll.config
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\NewProject.dll
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\NewProject.pdb
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\roslyn\csc.exe
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\roslyn\csc.exe.config
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\roslyn\csc.rsp
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\roslyn\csi.exe
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\roslyn\csi.rsp
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\roslyn\System.AppContext.dll
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\roslyn\System.Collections.Immutable.dll
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\roslyn\System.IO.FileSystem.dll
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\roslyn\System.Reflection.Metadata.dll
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\roslyn\vbc.exe
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\roslyn\vbc.exe.config
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\roslyn\vbc.rsp
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\roslyn\VBCSCompiler.exe
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\roslyn\VBCSCompiler.exe.config
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\Antlr3.Runtime.dll
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\Microsoft.Web.Infrastructure.dll
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\Newtonsoft.Json.dll
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\System.Web.Helpers.dll
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\System.Web.Mvc.dll
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\System.Web.Optimization.dll
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\System.Web.Razor.dll
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\System.Web.WebPages.Deployment.dll
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\System.Web.WebPages.dll
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\System.Web.WebPages.Razor.dll
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\WebGrease.dll
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\System.Web.Helpers.xml
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\System.Web.Mvc.xml
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\System.Web.Optimization.xml
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\System.Web.Razor.xml
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\System.Web.WebPages.xml
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\System.Web.WebPages.Deployment.xml
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\System.Web.WebPages.Razor.xml
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\Newtonsoft.Json.xml
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\Antlr3.Runtime.pdb
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\obj\Debug\NewProject.csprojAssemblyReference.cache
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\obj\Debug\NewProject.csproj.CoreCompileInputs.cache
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\obj\Debug\NewProject.csproj.CopyComplete
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\obj\Debug\NewProject.dll
+D:\Ky5\2_PRN292_1\PJ\NewProject\NewProject\obj\Debug\NewProject.pdb
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\NewProject.dll.config
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\NewProject.dll
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\NewProject.pdb
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\WebGrease.dll
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\System.Web.Optimization.xml
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\obj\Debug\NewProject.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\obj\Debug\NewProject.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\obj\Debug\NewProject.csproj.CopyComplete
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\obj\Debug\NewProject.dll
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\obj\Debug\NewProject.pdb
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\PJ\PJ\NewProject\NewProject\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\NewProject.dll.config
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\NewProject.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\NewProject.pdb
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\WebGrease.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\System.Web.Optimization.xml
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\obj\Debug\NewProject.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\obj\Debug\NewProject.csproj.CopyComplete
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\obj\Debug\NewProject.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\obj\Debug\NewProject.pdb
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProject\NewProject\obj\Debug\NewProject.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\NewProject.dll.config
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\NewProject.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\NewProject.pdb
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\WebGrease.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\System.Web.Optimization.xml
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\obj\Debug\NewProject.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\obj\Debug\NewProject.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\obj\Debug\NewProject.csproj.CopyComplete
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\obj\Debug\NewProject.dll
+C:\Users\Admin\Desktop\Project\New folder\PJ\PJ\NewProjectFinal\NewProject\obj\Debug\NewProject.pdb

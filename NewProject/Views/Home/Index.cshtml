@@ -1,0 +1,190 @@
+﻿@using NewProject.Controllers
+@using NewProject.Models
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    HomeController hs = new HomeController();
+    List<News> getTop3 = hs.getTop1(3);
+
+    News newTop1 = getTop3.ElementAt(0);
+    News newTop2 = getTop3.ElementAt(1);
+    News newTop3 = getTop3.ElementAt(2);
+    List<News> getTop5HotNews = hs.getTop1(5);
+    
+    //string author = hs.getAuthorByNew(newTop1.newID);
+
+}
+<script src="~/Content/js/bootstrap.min.js"></script>
+<script src="~/Content/js/jquery.min.js"></script>
+<script src="~/Content/js/tether.min.js"></script>
+<script src="~/Content/js/custom.js"></script>
+<link href="~/Content/css/version/tech.css" rel="stylesheet" />
+<link href="~/Content/css/bootstrap.css" rel="stylesheet" />
+<link href="~/Content/css/colors.css" rel="stylesheet" />
+<link href="~/Content/css/font-awesome.min.css" rel="stylesheet" />
+<link href="~/Content/css/responsive.css" rel="stylesheet" />
+<link href="~/Content/style.css" rel="stylesheet" />
+
+
+
+<section class="section first-section">
+    <div class="container-fluid">
+        <div class="masonry-blog clearfix">
+            <div class="first-slot">
+                <div class="masonry-box post-media" style="position: relative; width: 100%; overflow: hidden;">
+                    <img src="~/Content/images/img_News/@newTop1.imageNew" alt="" class="img-fluid" />
+                    <div class="shadoweffect">
+                        <div class="shadow-desc">
+                            <div class="blog-meta">
+                                <span class="bg-orange"><a href="tech-category-01.html" title="">@newTop1.category</a></span>
+                                <h4>
+                                    @Html.ActionLink(@newTop1.title, "NewDetail", "Home", new { id = @newTop1.newID }, null)
+                                    @*<a href="tech-single.html" title=""></a>*@
+                                </h4>
+                                <small><a href="tech-single.html" title="">@newTop1.datePost</a></small>
+                                <small><a href="tech-author.html" title="">by ThaoDP</a></small>
+                                <small><a href="tech-single.html" title=""><i class="fa fa-eye"></i> @newTop1.viewCount</a></small>
+                            </div><!-- end meta -->
+                        </div><!-- end shadow-desc -->
+                    </div><!-- end shadow -->
+                </div><!-- end post-media -->
+            </div><!-- end first-side -->
+
+
+
+            <div class="second-slot">
+                <div class="masonry-box post-media" style="position: relative; width: 100%; overflow: hidden;">
+                    <img src="~/Content/images/img_News/@newTop2.imageNew" alt="" class="img-fluid" />
+                    @*<img src="upload/tech_02.jpg" alt="" class="img-fluid">*@
+                    <div class="shadoweffect">
+                        <div class="shadow-desc">
+                            <div class="blog-meta">
+                                <span class="bg-orange"><a href="tech-category-01.html" title="">@newTop2.category</a></span>
+                                <h4>
+                                    @Html.ActionLink(@newTop2.title, "NewDetail", "Home", new { id = newTop2.newID }, null)
+
+                                </h4>
+                                <small><a href="tech-single.html" title="">@newTop2.datePost</a></small>
+                                <small><a href="tech-single.html" title=""><i class="fa fa-eye"></i> @newTop2.viewCount</a></small>
+                                <small><a href="tech-author.html" title="">by Long</a></small>
+                            </div><!-- end meta -->
+                        </div><!-- end shadow-desc -->
+                    </div><!-- end shadow -->
+                </div><!-- end post-media -->
+            </div><!-- end second-side -->
+
+            <div class="last-slot">
+                <div class="masonry-box post-media" style="position: relative; width: 100%; overflow: hidden;">
+                    @*<img src="upload/tech_03.jpg" alt="" class="img-fluid">*@
+                    <img src="~/Content/images/img_News/@newTop3.imageNew" alt="" class="img-fluid" />
+                    <div class="shadoweffect">
+                        <div class="shadow-desc">
+                            <div class="blog-meta">
+                                <span class="bg-orange"><a href="tech-category-01.html" title="">@newTop3.category</a></span>
+                                <h4>
+                                    @Html.ActionLink(@newTop3.title, "NewDetail", "Home", new { id = @newTop3.newID }, null)
+                                </h4>
+                                <small><a href="tech-single.html" title="">@newTop3.datePost</a></small>
+                                <small><a href="tech-single.html" title=""><i class="fa fa-eye"></i> @newTop3.viewCount</a></small>
+                                <small><a href="tech-author.html" title="">by Lam</a></small>
+                            </div><!-- end meta -->
+                        </div><!-- end shadow-desc -->
+                    </div><!-- end shadow -->
+                </div><!-- end post-media -->
+            </div><!-- end second-side -->
+        </div><!-- end masonry -->
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+                <div class="page-wrapper">
+                    <div class="blog-top clearfix">
+                        <h4 class="pull-left">Hot News <a href="#"><i class="fa fa-rss"></i></a></h4>
+                    </div><!-- end blog-top -->
+
+                    <div class="blog-list clearfix">
+                        @foreach (var item in getTop5HotNews)
+                        {
+                            <div class="blog-box row">
+                                <div class="col-md-4">
+                                    <div class="post-media" style="position: relative; width: 100%; overflow: hidden;">
+                                        <a href="tech-single.html" title="">
+                                            @*<img src="upload/tech_blog_01.jpg" alt="" class="img-fluid">*@
+                                            <img src="~/Content/images/img_News/@item.imageNew" alt="" class="img-fluid" />
+                                            <div class="hovereffect"></div>
+                                        </a>
+                                    </div><!-- end media -->
+                                </div><!-- end col -->
+
+                                <div class="blog-meta big-meta col-md-8">
+                                    <h4 style="background-color: rgba(176, 168, 168)">
+                                        @Html.ActionLink(@item.title, "NewDetail", "Home", new { id = item.newID }, null)
+                                    </h4>
+                                    <p>@item.description.Substring(1, 10) ...</p>
+                                    <small class="firstsmall"><a class="bg-orange" href="tech-category-01.html" title="">@item.category</a></small>
+                                    <small><a href="tech-single.html" title="">@item.datePost</a></small>
+                                    <small><a href="tech-author.html" title="">by Thaodp</a></small>
+                                    <small><a href="tech-single.html" title=""><i class="fa fa-eye"></i> @item.viewCount</a></small>
+                                </div><!-- end meta -->
+                            </div><!-- end blog-box -->
+                            <hr class="invis">
+                        }
+
+
+                    </div><!-- end blog-list -->
+                </div><!-- end page-wrapper -->
+
+               
+
+            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                <div class="sidebar">
+                    <div class="widget">
+                        <div class="banner-spot clearfix">
+                            <div class="banner-img">
+                                <img src="upload/banner_07.jpg" alt="" class="img-fluid">
+                            </div><!-- end banner-img -->
+                        </div><!-- end banner -->
+                    </div><!-- end widget -->
+
+                    <div class="widget">
+                        <h2 class="widget-title">Category: </h2>
+                        <div class="trend-videos">
+
+                            <div class="blog-box">
+                                <div class="post-media">
+                                    <h4 style="background-color: rgba(176, 168, 168)">
+                                        @Html.ActionLink("Science", "listCategory", "Home", new { id = "Science", @class = "fb-button btn btn-primary", @style = "size = 20" }, null)
+                                    </h4>
+                                    <h4 style="background-color: rgba(176, 168, 168)">
+                                        @Html.ActionLink("Technology", "listCategory", "Home", new { id = "Technology", @class = "fb-button btn btn-primary", @style = "background: #DA5333 !important;" }, null)
+                                    </h4>
+                                    <h4 style="background-color: rgba(176, 168, 168)">
+                                        @Html.ActionLink("Social media", "listCategory", "Home", new { id = "Social media", @class = "fb-button btn btn-primary", @style = "background: #DA5333 !important;" }, null)
+                                    </h4>
+                                    <h4 style="background-color: rgba(176, 168, 168)">
+                                        @Html.ActionLink("Car news", "listCategory", "Home", new { id = "Car news", @class = "fb-button btn btn-primary", @style = "background: #DA5333 !important;" }, null)
+                                    </h4>
+                                   
+                                </div><!-- end media -->
+                                <div class="blog-meta">
+                                    <h4>
+
+                                    </h4>
+                                </div><!-- end meta -->
+                            </div><!-- end blog-box -->
+
+                            <hr class="invis">
+
+                        </div><!-- end videos -->
+                    </div><!-- end widget -->
+
+
+                </div><!-- end sidebar -->
+            </div><!-- end col -->
+        </div><!-- end row -->
+    </div><!-- end container -->
+</section>
+

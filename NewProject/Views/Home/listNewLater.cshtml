@@ -1,0 +1,63 @@
+﻿@using NewProject.Controllers
+@using NewProject.Models
+@{
+    ViewBag.Title = "listNewLater";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    HomeController controller = new HomeController();
+    List<NewsLater> newsLaters = controller.getAllNewLaterByAcc();
+}
+
+
+<div class="page-title lb single-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                <h2><i class="fa fa-gears bg-orange"></i> List new later <small class="hidden-xs-down hidden-sm-down">News list when you want to read later</small></h2>
+            </div><!-- end col -->
+            <div class="col-lg-4 col-md-4 col-sm-12 hidden-xs-down hidden-sm-down">
+            </div><!-- end col -->
+        </div><!-- end row -->
+    </div><!-- end container -->
+</div><!-- end page-title -->
+
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+                <div class="page-wrapper">
+                    <div class="blog-grid-system">
+                        <div class="row">
+                            @foreach (var item in newsLaters)
+                                    {
+                                        News newsss = controller.getNewReturnByNews(item.newID);
+                                <div class="col-md-6">
+                                    <div class="blog-box">
+                                        <div class="post-media">
+                                            <a href="tech-single.html" title="">
+                                                <img src="~/Content/images/img_News/@newsss.imageNew" alt="" class="img-fluid">
+                                                <div class="hovereffect">
+                                                    <span></span>
+                                                </div><!-- end hover -->
+                                            </a>
+                                        </div><!-- end media -->
+                                        <div class="blog-meta big-meta">
+                                            <span class="color-orange"><a href="tech-category-01.html" title="">@newsss.category</a></span>
+                                            @Html.ActionLink("Delete new later!!!", "DeletetNewLater", "Home", new { id = item.id, @class = "fb-button btn btn-primary", @style = "background: #DA5333 !important;" }, null)
+                                        <h4>
+                                            @Html.ActionLink(@newsss.title, "NewDetail", "Home", new { id = item.id, @class = "fb-button btn btn-primary", @style = "background: #DA5333 !important;" }, null)
+                                        </h4>
+                                            <p>@newsss.description.Substring(1, 10) ...</p>
+                                            <small><a href="tech-single.html" title="">@newsss.datePost</a></small>
+                                            <small><a href="tech-author.html" title="">by @item.userID</a></small>
+                                            <small><a href="tech-single.html" title=""><i class="fa fa-eye"></i> @newsss.viewCount</a></small>
+                                        </div><!-- end meta -->
+                                    </div><!-- end blog-box -->
+                                </div><!-- end col -->
+                            }
+
+                            <hr class="invis3">
+
+                        </div><!-- end col -->
+                    </div><!-- end row -->
+                </div><!-- end container -->
+</section>
